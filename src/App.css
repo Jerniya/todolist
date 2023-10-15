@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: rgb(1, 5, 8);
+
+}
+.head{
+  color:white;
+  text-align: center;
+  font-style: italic;
+  margin-top: 1cm;
+}
+
+.main{
+  background-color:rgb(68, 36, 68);
+  width:500px;
+  height:500px;
+  margin:2cm 14cm 0cm 14cm;
+  border:3px solid grey;
+  border-radius: 2cm;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+margin-left: 0.6cm;
+margin-right: 0.6cm;
+  background-color:rgb(68, 36, 68);
+  height: 1cm;
+  margin-top: 0.51cm;
+
+}
+#done{
+  color:rgb(213, 220, 225);
+  background-color: red;
+  margin-left: 1cm;
+  
+}
+#k{
+  
+  background-color:rgba(239, 179, 239, 0.996);
+ 
+  height: 1cm;
+  color:rgb(15, 13, 13);
+  font-size: large;
+  text-align: center;
+ 
+  
+}
+
+#cont{
+  background-color:rgb(68, 36, 68);
+  margin-top: 1cm;
+  padding: 1cm;
+  
+}
+
+.nav button{
+  border-radius: 2cm;
+  border:3px solid grey;
+  box-shadow: 0cm 0cm 0.3cm rgb(176, 103, 103);
+  color: white;
+  width:4cm;
+}
+
+.nav input{
+  width:7cm;
+  color: white;
+}
+
